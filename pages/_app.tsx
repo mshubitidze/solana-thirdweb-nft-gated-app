@@ -6,7 +6,7 @@ import { WalletProvider } from "@solana/wallet-adapter-react";
 import { PhantomWalletAdapter } from "@solana/wallet-adapter-wallets";
 
 export const network: Network = "devnet";
-export const domain = "example.org";
+export const domain = "https://solana-thirdweb-nft-gated-app-two.vercel.app/";
 export const wallet = new PhantomWalletAdapter();
 
 function MyApp({ Component, pageProps }: AppProps) {
